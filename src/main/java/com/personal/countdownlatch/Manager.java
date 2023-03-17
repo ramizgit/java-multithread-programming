@@ -23,7 +23,6 @@ public class Manager implements Runnable{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
         System.out.println("all workers are done, manager doing sanity check now");
     }
 }
